@@ -98,4 +98,4 @@ func MakeLdFlags(repoPath string) (string, error) {
 	return strings.Join(ldflags, " "), nil
 }
 
-const ldFlagVarPkg = "github.com/mholt/caddy/caddy/caddymain"
+const ldFlagVarPkg = "github.com/WedgeServer/wedge/caddy/caddymain"
